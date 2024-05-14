@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+
+  background: linear-gradient(
+    rgba(98, 168, 230, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 0 none;
+    border-radius: 25px;
+   
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#messages {
+  margin-top: 10px;
+}
+
+p {
+  color: red;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 300px;
+  }
+}
